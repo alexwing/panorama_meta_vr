@@ -73,7 +73,7 @@ Shader "Unlit/Pano360ShaderURPMobile"
             Cull Front // Renderiza solo las caras traseras
         }
 
-        Pass
+        /*Pass
         {
             HLSLPROGRAM
             #pragma vertex vert
@@ -81,6 +81,6 @@ Shader "Unlit/Pano360ShaderURPMobile"
             // Las definiciones de las funciones vert y frag ya están en el primer pase
             ENDHLSL
             Cull Back // Renderiza solo las caras frontales
-        }
+        }*/
     }
 }

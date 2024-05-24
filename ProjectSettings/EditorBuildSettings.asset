@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Pano.unity
+    path: Assets/Scenes/Panorama.unity
     guid: 678495e9654b5f74cba9164c92420da7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1157f091ca3000f4793dc6f7c718e4d2,
