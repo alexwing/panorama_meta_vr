@@ -7,15 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_Pano360Shader
-  m_Shader: {fileID: 4800000, guid: 2c3dd31e8100f794cb7296d015ada8c9, type: 3}
-  m_Parent: {fileID: 0}
+  m_Name: PanoMaterial
+  m_Shader: {fileID: 4800000, guid: 1ac02163f726c7148bb3265ab4da5e57, type: 3}
+  m_Parent: {fileID: 2100000, guid: 61de125795019654c8a261ed00c19b20, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -23,8 +23,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 278fafd90f9c74e459ec34d12188fc98, type: 3}
+    - _MainTexLeft:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexRight:
@@ -32,13 +32,6 @@ Material:
         m_Scale: {x: 1, y: 4.13}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _ALPHABACK: 0
-    - _HAOV: 20
-    - _HFOV: 66
-    - _HOffset: 90
-    - _VAOV: 20
-    - _VOFFSET: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
